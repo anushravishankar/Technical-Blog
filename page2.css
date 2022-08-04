@@ -1,0 +1,82 @@
+body{
+    color: aliceblue;
+}
+h1{
+    padding: 30px;
+}
+.content{
+    padding: 30px 30px 40px 40px;
+}
+.text{
+    border: 10px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+.text h4{
+    display: flex;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.img img{
+    border: blue solid;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+}
+a:link{
+    text-decoration: none;
+}
+.content2{
+    display: flex;
+}
+.btn{
+    position: relative;
+    float: right;
+    background-color: lightskyblue;
+    color: white;
+}
+
+@media (min-width: 576px) { 
+    .content2.img-fluid{
+        display: block;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) { 
+    .content2.img-fluid{
+        max-width: 100%;
+    }
+ }
+ @media (min-width: 992px) { 
+    .content2.img-fluid{
+        max-width: 100%;
+    }
+  }
+@media (min-width: 992px){
+.blogs{
+ margin-left: 31%;
+ margin-right: 31%;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+}
+.blogs{
+    border: 5px white solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.one{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.two{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.three{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
